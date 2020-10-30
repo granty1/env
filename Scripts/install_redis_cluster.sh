@@ -86,6 +86,7 @@ make -j4
 ReportError "build failed!"
 make install
 ruby -v
+gem sources -a https://ruby.taobao.org/
 gem install redis
 ReportError "install ruby failed"
 cd ../
